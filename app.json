@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Toronto Bus Time",
+    "slug": "torontobustime",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "appStoreUrl": "https://apps.apple.com/app/id6443604651",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.turtlefung.torontobustime"
+    },
+    "android": {
+      "versionCode": 3,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.turtlefung.torontobustime",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.turtlefung.torontobustime",
+      "permissions": [],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBPnhrogwWwa_yfwNZyJDrPTpbiFhkuM9s"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "bc6576c7-8dff-48a6-8382-5fb136cd694c"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-9512123199708539~4787870479",
+    "ios_app_id": "ca-app-pub-9512123199708539~6674585641"
+  }
+}
